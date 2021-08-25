@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabelas1.css">
+    <title>Cadastro de Cliente</title>
+</head>
+<body>
+    <div class="tabelaGC">
+        <table>
+            <tr>
+                <td class="coluna1"> </td>
+                <td class="coluna2">Cadastro do Cliente</td>
+                <td class="coluna3">&nbsp;</td>
+            </tr>
+        </table>
+
+        <form action="processaForm" method="post">
+            <fieldset>
+                <legend id="legend">Dados do cliente </legend>
+                <table>
+                    <tr>
+                        <td><label> Nome:</label></td>
+                        <td colspan="3"><input name="nome" type="text"  size="79" maxlength="255"></td>
+                    </tr>
+                    <tr>
+                        <td ><label> Telefone:</label></td>
+                        <td ><input name="telefone" type="text" ></td>
+                        <td id="emai"><label>e-mail:</label></td>
+                        <td ><input name="email" type="text" size="40"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Endere&ccedil;o</legend>
+                <table >
+                    <tr>
+                        <td><label>Rua/Av:</label></td>
+                        <td><input name="endereco" type="text"  size="40" maxlength="255"></td>
+                        <td><label>N&uacute;mero:&nbsp;</label></td>
+                        <td><input name="numero" type="text"  size="5" maxlength="5"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="bairro">Bairro:</label></td>
+                        <td><input class="nome" name="bairro" type="text"></td>
+                        <td><label>CEP:&nbsp;</label></td>
+                        <td><input name="cep" type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td><label class="cidade"> Cidade:</label></td>
+                        <td><input name="cidade" type="text" ></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
+<html>
+  
+  
