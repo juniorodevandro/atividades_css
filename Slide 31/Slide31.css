@@ -41,14 +41,12 @@ body {
   border: 1px;
 }
 
-#nome {
-  width: 265px;
-  margin-left: 2px;
-}
-
-#email{
-  width: 265px;
-  margin-left: 2px;
+#input{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: red;
+    background-color: yellow;
+    width: 270px;
 }
 
 .checkbox {
