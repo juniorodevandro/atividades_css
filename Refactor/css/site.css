@@ -26,6 +26,7 @@ h1 a:hover {
 .places {
     float: left;
     width: 660px;
+    
 }
 
 .lateral {
@@ -76,6 +77,6 @@ h1 a:hover {
 }
 
 .rodape {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
 }
